@@ -6,6 +6,20 @@ body {
     background-color: #16171C;
 }
 
+body::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #0E141A;
+    box-shadow: inset 10px 10px 10px 10px black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(lightgreen, rgba(30, 196, 30, 0.952));
+}
+
 * {
     font-family: 'Space Grotesk', sans-serif;
 }
