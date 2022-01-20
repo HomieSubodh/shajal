@@ -26,3 +26,8 @@
     filter: saturate(2);
     -webkit-filter: saturate(2);
 }
+
+i {
+    font-size: 14px;
+    margin-left: 2px;
+}
