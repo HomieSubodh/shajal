@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300;400&family=Blinker:wght@100;200;300;400&family=Expletus+Sans:wght@400;500&family=Gemunu+Libre:wght@300;500&family=Geo&family=Major+Mono+Display&family=Monofett&family=MuseoModerno:wght@200;400&family=Nova+Square&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Sirin+Stencil&family=Snippet&family=Squada+One&family=Tomorrow:wght@200;300&family=Wellfleet&display=swap');
+
+body {
+
+}
+
+nav#navbar {
+    font-family: 'Sirin Stencil', cursive;
+    font-weight: bolder;
+}
