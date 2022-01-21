@@ -30,7 +30,9 @@ body::-webkit-scrollbar-thumb {
     padding: 0;
 }
 
-body {}
+body {
+    scroll-behavior: smooth;
+}
 
 nav#navbar {
     font-family: 'Sirin Stencil', cursive;
