@@ -6,14 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--! Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!--! Bootstrap 5 CDN link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
-    <!--! Bootstrap 5 JS file -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
-        defer></script>
 
     <!--! External Stylesheet  -->
     <link rel="stylesheet" href="main.css">
@@ -24,28 +22,48 @@
 
 <body>
     <section>
-        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="" alt=""> <img src="images/dc-logo.png" alt=""> Diana Collection</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <!--! Bootstrap Navbar  -->
+        <nav class="container navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-fluid d-lg-flex flex-lg-row justify-content-lg-between d-flex flex-column">
+                <div>
+                    <a class="navbar-brand ms-lg-0 ms-5" href="https://cocky-boyd-6f4654.netlify.app/project-3/"><img
+                            src="images/dc-logo.png" alt="" height="50%" width="70%"></a>
+                </div>
+                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse d-lg-flex flex-lg-row justify-content-lg-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         <a class="nav-link" href="#">Products</a>
                         <a class="nav-link" href="#">Track Delivery</a>
                         <a class="nav-link" href="#">Pricing</a>
-
+                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <!--! Top Section Contents and Images -->
+        <div class="container d-lg-flex flex-lg-row justify-content-lg-center d-flex flex-column" style="font-family: 'Expletus Sans';">
+            <div class="w-75 mb-5">
+                <h1 class="fw-bolder text-md-center">Essential Cloths & Fashions For Kids</h1>
+                <p class="text-md-justify" style="font-family: 'Quantico','Squada One';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minus, recusandae nisi labore perferendis harum consectetur nobis voluptatem! Facilis placeat possimus soluta commodi qui ex tempore architecto eum consequatur quas.</p>
+                <button type="button" class="btn rounded-pill btn-secondary p-2 shadow"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+            </div>
+            <div>
+                <img src="images/children.png" alt=""width="100%">
+            </div>
+        </div>
     </section>
-    <!-- <img src="images/children.png" alt=""> -->
+
+    <!--! Bootstrap 5 JS file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+        defer></script>
 </body>
 
 </html>
