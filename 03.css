@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400&family=Jura:wght@300;400;500&family=Saira+Condensed:wght@200;400&family=Unica+One&display=swap');
+
+* {
+    color: ghostwhite;
+}
+
+body {
+    background-color: #0A0809;
+}
+
+header > .dropdown {
+    font-family: 'Jura', 'Bai Jamjuree';
+}
