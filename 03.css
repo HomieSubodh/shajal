@@ -14,6 +14,7 @@ header {
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .dropdown {
@@ -87,7 +88,7 @@ ul {
 }
 
 .icons>ul>li {
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 button {
@@ -107,5 +108,38 @@ button {
 
 button:hover {
     background-color: lightgreen;
+    color: black;
+    box-shadow: 4px 5px 5px 2px rgba(144, 238, 144, 0.712);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.social_links li {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.social_links li:hover {
+    background-color: lightgreen;
+}
+
+.social_links li:hover a>i {
     color: black;
 }
