@@ -151,8 +151,99 @@ button:hover {
     color: black;
 }
 
-.section-two > div > p {
+/*! Second Section  */
+
+.section-two {
+    display: flex;
+}
+
+.section-two-div-one {
+    width: 50%;
+}
+
+.section-two-div-one h1 {
+    font-size: 35px;
+}
+
+.section-two-div-one>p {
     letter-spacing: 10px;
     color: lightgreen;
     font-weight: bold;
 }
+
+.section-two-div-two {
+    width: 30%;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+}
+
+.section-three>img {
+    width: 150px;
+    margin-left: 10%;
+}
+
+/*! Fourth Section  */
+
+.fourth-section {
+    /* width: 60%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fourth-section-first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linear-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid white; */
+    width: 50%;
+}
+
+.linear-images>img:nth-child(1) {
+    width: 80%;
+}
+
+.linear-images>img:nth-child(2),
+.linear-images>img:nth-child(4) {
+    height: 80px;
+    width: 80%;
+}
+
+.linear-images>img:nth-child(3),
+.linear-images>img:nth-child(5) {
+    width: 80%;
+}
+
+.fourth-section-second-div {
+    /* border: 2px solid white; */
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth-section-third-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    /* border: 2px solid white; */
+}
+
+.fourth-section-third-div h4 {
+    font-size: 25px;
+}
+
+.fourth-section-third-div p {
+    font-size: 20px;
+    font-family: 'Saira Condensed';
+}
+
