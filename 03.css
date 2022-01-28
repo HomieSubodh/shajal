@@ -16,6 +16,8 @@ body {
     margin-right: 20%;
 }
 
+/*! header first section  */
+
 header {
     text-transform: uppercase;
     display: flex;
@@ -155,6 +157,7 @@ button:hover {
 
 .section-two {
     display: flex;
+    margin-top: 15%;
 }
 
 .section-two-div-one {
@@ -162,7 +165,7 @@ button:hover {
 }
 
 .section-two-div-one h1 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .section-two-div-one>p {
@@ -175,6 +178,10 @@ button:hover {
     width: 30%;
 }
 
+.section-two-div-two > p {
+    font-size: 25px;
+}
+
 .section-three {
     display: flex;
     justify-content: center;
@@ -185,6 +192,11 @@ button:hover {
     margin-left: 10%;
 }
 
+/*! Third Section  */
+.section-three {
+    margin-top: 15%;
+}
+
 /*! Fourth Section  */
 
 .fourth-section {
@@ -192,6 +204,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 15%;
 }
 
 .fourth-section-first-div {
