@@ -2,6 +2,12 @@
 
 * {
     color: ghostwhite;
+    font-family: 'Jura', 'Bai Jamjuree';
+}
+
+::selection {
+    background-color: lightgreen;
+    color: black;
 }
 
 body {
@@ -18,7 +24,6 @@ header {
 }
 
 .dropdown {
-    font-family: 'Jura', 'Bai Jamjuree';
     font-weight: bold;
 }
 
@@ -58,6 +63,7 @@ ul {
 }
 
 .first_dropdown {
+    width: 80px;
     background-color: lightgreen;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -72,6 +78,7 @@ ul {
     -o-transform: translate(0px, 20px);
     display: none;
     transition: 1s;
+    position: fixed;
 }
 
 .customers>ul>li>a {
@@ -142,4 +149,10 @@ button:hover {
 
 .social_links li:hover a>i {
     color: black;
+}
+
+.section-two > div > p {
+    letter-spacing: 10px;
+    color: lightgreen;
+    font-weight: bold;
 }
